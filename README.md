@@ -1,34 +1,90 @@
-This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
+<p align="center">
+  <img alt="GitHub language count" src="https://img.shields.io/github/languages/count/thelunardi/admin-template-cod3r?color=%2304D361">
 
-## Getting Started
+  <a href="https://www.twitter.com/thelunardi/">
+    <img alt="Siga no Twitter" src="https://img.shields.io/twitter/url?url=https%3A%2F%2Fgithub.com%2Fthelunardi%2Fadmin-template-cod3r">
+  </a>
 
-First, run the development server:
+  <a href="https://github.com/thelunardi/admin-template-cod3r/commits/main">
+    <img alt="GitHub last commit" src="https://img.shields.io/github/last-commit/thelunardi/admin-template-cod3r">
+  </a>
+</p>
+<h1 align="center">
+    <img alt="Template Admin by Cod3r" title="#Alurakut" src="public/vercel.svg" />
+</h1>
+
+<p align="center">
+ <a href="#-sobre-o-projeto">Sobre</a> •
+ <a href="#-funcionalidades">Funcionalidades</a> •
+ <a href="#-como-executar-o-projeto">Como executar</a> • 
+ <a href="#-tecnologias">Tecnologias</a> • 
+ <a href="#-autor">Autor</a> •
+ <a href="#-modelo-do-readme">Modelo do README</a>
+</p>
+
+
+## 💻 Sobre o projeto
+
+Projeto final do curso de Next da cod3r (https://www.udemy.com/course/nextjs-e-react/)
+
+---
+
+## ⚙ Funcionalidades
+
+- [x] Login
+    - [x] Login com o Google
+    - [x] Cadastro e autenticação
+
+---
+## 🚀 Como executar o projeto
+
+#### 🧭 Rodando a aplicação web (Frontend)
 
 ```bash
-npm run dev
-# or
-yarn dev
+
+# Clone este repositório
+$ git clone git@github.com:thelunardi/admin-template-cod3r.git
+
+# Acesse a pasta do projeto no seu terminal/cmd
+$ cd admin-template-cod3r
+
+# Instale as dependências
+$ npm install
+
+# Execute a aplicação em modo de desenvolvimento
+$ npm run dev
+
+# A aplicação será aberta na porta:3000 - acesse http://localhost:3000
+
 ```
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+---
 
-You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
+## 🛠 Tecnologias
 
-[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
+As seguintes ferramentas foram usadas na construção do projeto:
 
-The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
+#### **Website**:
+[NextJS](https://nextjs.org/)
+<br>
+[React](https://reactjs.org/)
 
-## Learn More
+---
 
-To learn more about Next.js, take a look at the following resources:
+## 🦸 Autor
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+<a href="https://thelunardi.dev/">
+ <img style="border-radius: 50%;" src="https://github.com/thelunardi.png" width="100px;" alt=""/>
+ <br />
+ <sub><b>Alexandre Lunardi</b></sub></a> <a href="https://thelunardi.dev" title="thelunardi">🚀</a>
+ <br />
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+[![Twitter Badge](https://img.shields.io/badge/-@thelunardi-1ca0f1?style=flat-square&labelColor=1ca0f1&logo=twitter&logoColor=white&link=https://twitter.com/thelunardi)](https://twitter.com/thelunardi) [![Linkedin Badge](https://img.shields.io/badge/-Alexandre-blue?style=flat-square&logo=Linkedin&logoColor=white&link=https://www.linkedin.com/in/thelunardi/)](https://www.linkedin.com/in/thelunardi/)
 
-## Deploy on Vercel
+---
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## 🦸 Modelo do README
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
+<a href="https://blog.rocketseat.com.br/author/thiago/">
+ <sub><b>by Thiago Marinho</b></sub></a> <a href="https://blog.rocketseat.com.br/author/thiago/" title="Rocketseat">🚀</a>
+ <br />
