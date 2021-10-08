@@ -1,3 +1,4 @@
+import useAppData from '../../data/hook/useAppData'
 import SideMenu from './SideMenu'
 import Header from './Header'
 import Content from './Content'
@@ -9,8 +10,9 @@ interface LayoutProps {
 }
 
 export default function Layout(props: LayoutProps) {
+    const {theme, changeTheme} = useAppData()
     return (
-        <div className={`dark flex h-screen w-screen`}>
+        <div className={`${theme} flex h-screen w-screen`}>
             <SideMenu />
             <div className={`
                 flex flex-col w-full p-7
