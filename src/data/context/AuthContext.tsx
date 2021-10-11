@@ -28,6 +28,7 @@ function handleCookie(isLogged: boolean) {
 
 interface AuthContextProps {
     user?: User
+    loading?: boolean
     googleLogin?: () => Promise<void>
     logout?: () => Promise<void>
 }
@@ -45,6 +46,7 @@ export function AuthProvider(props) {
             const cancel = firebase.auth().onIdTokenChanged(configSession)
             return () => cancel()
         }
+        setLoading(false)
     }, []);
 
 
@@ -90,6 +92,7 @@ export function AuthProvider(props) {
     return (
         <AuthContext.Provider value={{
             user,
+            loading,
             googleLogin,
             logout
         }}>
