@@ -15,7 +15,7 @@ export default function Layout(props: LayoutProps) {
         <div className={`${theme} flex h-screen w-screen`}>
             <SideMenu />
             <div className={`
-                flex flex-col w-full p-7
+                flex flex-col w-full p-6
                 bg-gray-300 dark:bg-gray-800
             `}>
                 <Header title={props.title} subtitle={props.subtitle} />
