@@ -45,7 +45,10 @@ export default function Auth() {
                 </h1>
 
                 {error ? (<div
-                    className={`flex items-center bg-red-400 text-white py-3 px-5 my-2 border border-red-700 rounded-lg`}>
+                    className={`flex items-center
+                        bg-red-400 text-white py-3 px-5 my-2
+                        border border-red-700 rounded-lg
+                    `}>
                     {WarningIcon()}
                     <span className='ml-3'>{error}</span>
                 </div>) : false}
