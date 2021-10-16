@@ -3,7 +3,7 @@ interface AuthInputProps {
     value: any
     required?: boolean
     render?: boolean
-    type?: 'text' | 'email' | 'password'
+    type?: 'text' | 'email' | 'password' | 'number'
     valueHasChanged: (newValue: any) => void
 }
 
