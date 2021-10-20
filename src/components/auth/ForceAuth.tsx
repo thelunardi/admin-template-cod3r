@@ -1,7 +1,7 @@
 import Image from 'next/image'
 import Head from 'next/head'
 import loadingImage from '../../../public/images/loading.gif'
-import useAuth from "../../data/hook/useAuth";
+import useAuth from '../../data/hook/useAuth'
 import router from 'next/router'
 
 export default function ForceAuth(props) {
